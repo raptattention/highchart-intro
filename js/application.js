@@ -9,7 +9,7 @@ $(document).ready(function(){
 		$.ajax({
       context: this,
 			type: 'GET',
-			url: 'https://www.quandl.com/api/v1/datasets/BTS_MM/RETAILGAS.json?auth_token=E6kNzExHjay2DNP8pKvB',
+			url: 'https://www.quandl.com/api/v1/datasets/CANSIM/252_0083_HAPPY_VALLEY_GOOSE_BAY_NEWFOUNDLAND_AND_LABRADOR_ROYAL_CANADIAN_MOUNTED_POLICE_RURAL.json',
 			success: function(response){
 				var items = response.data;
         var item;
